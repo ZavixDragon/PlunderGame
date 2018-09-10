@@ -1,0 +1,49 @@
+fileFormatVersion: 2
+guid: b878825f7969b114c8299547864c1050
+timeCreated: 1531511207
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BowlIdleMaterial: {fileID: 2100000, guid: c0815ddaf6e28b445baee0a9c83b1b4f, type: 2}
+  - BowlHoverMaterial: {fileID: 2100000, guid: 5c28c98f358cd0a45abcc5de94fa9d41, type: 2}
+  - BowlAddedMaterial: {fileID: 2100000, guid: 407a7b26b08a6b643b54b434ec186df9, type: 2}
+  - BowlCapturedMaterial: {fileID: 2100000, guid: 1c21d3058638c4d498e26c1b061d3b06,
+      type: 2}
+  - BowlExtraTurnMaterial: {fileID: 2100000, guid: e06887574b0659c41bfd14139c649938,
+      type: 2}
+  - LastBowlMaterial: {fileID: 2100000, guid: 759b85b3dcbb0a44d9cda71f02326548, type: 2}
+  - PlayerOneFirstBowl: {fileID: 114183471914887690, guid: 27bc72fff3e76564c95bb1b79eb1f4d4,
+      type: 2}
+  - PlayerOneSecondBowl: {fileID: 114734432785680242, guid: 5a9014914d057b243a73eec6171d6888,
+      type: 2}
+  - PlayerOneThirdBowl: {fileID: 114528711984779768, guid: 4c52ac69b63139742bbfd3b08105da6b,
+      type: 2}
+  - PlayerOneFourthBowl: {fileID: 114697554690926430, guid: 1ec74e3a69284e04183f8d4539eb8f93,
+      type: 2}
+  - PlayerOneFifthBowl: {fileID: 114528539877294020, guid: 9b43f36b10ba5004db5b95c56cbee7df,
+      type: 2}
+  - PlayerOneSixthBowl: {fileID: 114093567658522244, guid: 7b720c5a5c7a4094488c7d951dc2d96b,
+      type: 2}
+  - PlayerOneScoreBowl: {fileID: 114719537399208658, guid: c0dec6b976a863b48b444d2493ad1d9c,
+      type: 2}
+  - PlayerTwoFirstBowl: {fileID: 114895492461749528, guid: 06d8d410d85fe21459b54f7ad07d9499,
+      type: 2}
+  - PlayerTwoSecondBowl: {fileID: 114294910903298518, guid: dacda312454190f49880a08972cffee6,
+      type: 2}
+  - PlayerTwoThirdBowl: {fileID: 114689076285905224, guid: 2c378da06edb87d4a87fd0d74c050eec,
+      type: 2}
+  - PlayerTwoFourthBowl: {fileID: 114547843893791806, guid: c24ba2b3dfd489e4288a0ddaf4865ad0,
+      type: 2}
+  - PlayerTwoFifthBowl: {fileID: 114779408096809918, guid: c835d82d4e80bb940ae100a0b0a682d2,
+      type: 2}
+  - PlayerTwoSixthBowl: {fileID: 114613277673855272, guid: 4db74dd4f84ef0a4a92e6eac990da855,
+      type: 2}
+  - PlayerTwoScoreBowl: {fileID: 114693804903499064, guid: f74cd8e0e0c812c4795b28f83123d4d6,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
