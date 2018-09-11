@@ -27,13 +27,14 @@ namespace Assets.Scripts.Temp.StoneX
             body.StoneData.Position.OnChanged(x => gameObj.transform.position = x, gameObj);
             body.StoneData.Rotation.OnChanged(x => gameObj.transform.rotation = x, gameObj);
             body.Stone.StoneData.BowlID.OnChanged(x => GameResources.Queue.MoveStone(gameObj.ID, x), gameObj);
-            body.StoneData.IsPreviewing.OnChanged(x =>
-            {
-                if (x)
-                    gameObj.Preview();
-                else
-                    GameResources.Queue.ReturnToBowl(gameObj.ID);
-            }, gameObj);
+            //This piece code enables the stones to line up on preview to allow players to count them. But it has a few quirks so it has been temporarily disabled to produce a working build
+            //body.StoneData.IsPreviewing.OnChanged(x =>
+            //{
+            //    if (x)
+            //        gameObj.Preview();
+            //    else
+            //        GameResources.Queue.ReturnToBowl(gameObj.ID);
+            //}, gameObj);
             gameObj.Body = body;
             gameObj.ID = body.ID;
             return gameObj;
