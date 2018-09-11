@@ -22,8 +22,8 @@ namespace Assets.Scripts.Temp.StoneX
         public StoneScript Spawn(StoneBody body, Transform parent)
         {
             var gameObj = Instantiate(this, body.StoneData.Position.Value, body.StoneData.Rotation.Value, parent);
-            gameObj.RigidBody.useGravity = body.StoneData.UseGravity;
-            gameObj.Collider.isTrigger = !body.StoneData.AllowCollision;
+            //gameObj.RigidBody.useGravity = body.StoneData.UseGravity;
+            //gameObj.Collider.isTrigger = !body.StoneData.AllowCollision;
             body.StoneData.Position.OnChanged(x => gameObj.transform.position = x, gameObj);
             body.StoneData.Rotation.OnChanged(x => gameObj.transform.rotation = x, gameObj);
             body.Stone.StoneData.BowlID.OnChanged(x => GameResources.Queue.MoveStone(gameObj.ID, x), gameObj);
